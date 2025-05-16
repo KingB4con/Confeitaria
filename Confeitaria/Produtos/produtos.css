@@ -1,3 +1,7 @@
+body {
+    font-family: "Merienda", cursive;
+}
+
 header {
     background-color: #fcaed2;
     padding: 20px 0;
@@ -179,4 +183,28 @@ td, th {
 .titulo-principal {
     text-align: center;
     font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 170px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagem-beneficios {
+    width: 60%;
 }
